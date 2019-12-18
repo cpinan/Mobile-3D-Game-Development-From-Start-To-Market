@@ -1,0 +1,1 @@
+The GameReady folder contains the same content as the 2D Assets and 3D Assets folder, but it is organized differently than those two folders.  The 2D Assets and 3D Assets folder contain both the source files and exported files for every thing in the game.  The GameReady folder only contains the art that will be placed in the game.  

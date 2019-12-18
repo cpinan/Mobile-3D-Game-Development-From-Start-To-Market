@@ -1,0 +1,425 @@
+;V4FILE
+
+( V4_FileInfo 
+	( versionNumber 1 1 )
+	( hasExternalLinks true )
+	( authoringField "Exported from Lightwave 3D" )
+)
+
+; it contains 4 item(s).
+( External_Links
+	( ExRef 
+		( name "Road_IM2D_exImg" )
+		( URI "Road.png" )
+	)
+	( ExRef 
+		( name "Crowd_IM2D_exImg" )
+		( URI "Crowd.png" )
+	)
+	( ExRef 
+		( name "Walls1_IM2D_exImg" )
+		( URI "Walls1.png" )
+	)
+	( ExRef 
+		( name "Grime_IM2D_exImg" )
+		( URI "Grime.png" )
+	)
+)
+
+( Sections
+
+	; The section has 33 items.
+	( section
+		( needCompress true )
+		; it contains 4 item(s).
+		( Image2Ds
+			( image2d
+				( name "Road_IM2D" )
+				( userID 16 )
+				( ExtImageRef "Road_IM2D_exImg" )
+				( format 99 )
+			) 
+			( image2d
+				( name "Crowd_IM2D" )
+				( userID 24 )
+				( ExtImageRef "Crowd_IM2D_exImg" )
+				( format 99 )
+			) 
+			( image2d
+				( name "Walls1_IM2D" )
+				( userID 32 )
+				( ExtImageRef "Walls1_IM2D_exImg" )
+				( format 99 )
+			) 
+			( image2d
+				( name "Grime_IM2D" )
+				( userID 35 )
+				( ExtImageRef "Grime_IM2D_exImg" )
+				( format 99 )
+			) 
+		)
+
+		; it contains 4 item(s).
+		( Texture2Ds
+			( texture2d
+				( name "Straight_Part_v01_v002_Road_Road_Texture2D" )
+				( userID 15 )
+				( textureImageRef "Road_IM2D" )
+			) 
+			( texture2d
+				( name "Straight_Part_v01_v002_Bleacher_Crowd_Texture2D" )
+				( userID 23 )
+				( textureImageRef "Crowd_IM2D" )
+			) 
+			( texture2d
+				( name "Straight_Part_v01_v002_Sides_Walls1_Texture2D" )
+				( userID 31 )
+				( textureImageRef "Walls1_IM2D" )
+			) 
+			( texture2d
+				( name "Straight_Part_v01_v002_Sides_Grime_Texture2D" )
+				( userID 34 )
+				( textureImageRef "Grime_IM2D" )
+			) 
+		)
+
+		; it contains 3 item(s).
+		( CompositingModes
+			( compositingMode
+				( name "Straight_Part_v01_v002_Road_CM" )
+				( userID 12 )
+			) 
+			( compositingMode
+				( name "Straight_Part_v01_v002_Bleacher_CM" )
+				( userID 20 )
+			) 
+			( compositingMode
+				( name "Straight_Part_v01_v002_Sides_CM" )
+				( userID 28 )
+			) 
+		)
+
+		; it contains 3 item(s).
+		( PolygonModes
+			( polygonMode
+				( name "Straight_Part_v01_v002_Road_PM" )
+				( userID 13 )
+				( perspectiveCorrectionEnabled true )
+			) 
+			( polygonMode
+				( name "Straight_Part_v01_v002_Bleacher_PM" )
+				( userID 21 )
+				( perspectiveCorrectionEnabled true )
+			) 
+			( polygonMode
+				( name "Straight_Part_v01_v002_Sides_PM" )
+				( userID 29 )
+				( perspectiveCorrectionEnabled true )
+			) 
+		)
+
+		; it contains 3 item(s).
+		( Materials
+			( material
+				( name "Straight_Part_v01_v002_Road_Material" )
+				( userID 14 )
+				( ambientColor 1.000000 1.000000 1.000000 )
+				( diffuseColor 1.000000 1.000000 1.000000 1.000000 )
+				( shininess 48.000000 )
+			) 
+			( material
+				( name "Straight_Part_v01_v002_Bleacher_Material" )
+				( userID 22 )
+				( ambientColor 1.000000 1.000000 1.000000 )
+				( diffuseColor 1.000000 1.000000 1.000000 1.000000 )
+				( shininess 48.000000 )
+			) 
+			( material
+				( name "Straight_Part_v01_v002_Sides_Material" )
+				( userID 30 )
+				( ambientColor 1.000000 1.000000 1.000000 )
+				( diffuseColor 1.000000 1.000000 1.000000 1.000000 )
+				( shininess 48.000000 )
+			) 
+		)
+
+		; it contains 3 item(s).
+		( Appearances
+			( appearance
+				( name "Straight_Part_v01_v002_Road_Appearance" )
+				( userID 11 )
+				( compositingModeRef "Straight_Part_v01_v002_Road_CM" )
+				( polygonModeRef "Straight_Part_v01_v002_Road_PM" )
+				( materialRef "Straight_Part_v01_v002_Road_Material" )
+				( textures 
+					( textureRef "Straight_Part_v01_v002_Road_Road_Texture2D" )
+				 )
+			) 
+			( appearance
+				( name "Straight_Part_v01_v002_Bleacher_Appearance" )
+				( userID 19 )
+				( compositingModeRef "Straight_Part_v01_v002_Bleacher_CM" )
+				( polygonModeRef "Straight_Part_v01_v002_Bleacher_PM" )
+				( materialRef "Straight_Part_v01_v002_Bleacher_Material" )
+				( textures 
+					( textureRef "Straight_Part_v01_v002_Bleacher_Crowd_Texture2D" )
+				 )
+			) 
+			( appearance
+				( name "Straight_Part_v01_v002_Sides_Appearance" )
+				( userID 27 )
+				( compositingModeRef "Straight_Part_v01_v002_Sides_CM" )
+				( polygonModeRef "Straight_Part_v01_v002_Sides_PM" )
+				( materialRef "Straight_Part_v01_v002_Sides_Material" )
+				( textures 
+					( textureRef "Straight_Part_v01_v002_Sides_Walls1_Texture2D" )
+					( textureRef "Straight_Part_v01_v002_Sides_Grime_Texture2D" )
+				 )
+			) 
+		)
+
+		; it contains 3 item(s).
+		( TriangleStripArrays
+			( triangleStripArray
+				( name "Straight_Part_v01_v002_Straight_Part_v01_v002_Road_TriangleStripeArray" )
+				( userID 18 )
+				( stripCount 1 )
+				( stripLengths 4 )
+				; triangleCount: 4
+				( stripIndices
+					( stripIndex 2 3 0 1 )
+				)
+			) 
+			( triangleStripArray
+				( name "Straight_Part_v01_v002_Straight_Part_v01_v002_Bleacher_TriangleStripeArray" )
+				( userID 26 )
+				( stripCount 2 )
+				( stripLengths 4 4 )
+				; triangleCount: 8
+				( stripIndices
+					( stripIndex 5 9 4 8 )
+					( stripIndex 7 11 6 10 )
+				)
+			) 
+			( triangleStripArray
+				( name "Straight_Part_v01_v002_Straight_Part_v01_v002_Sides_TriangleStripeArray" )
+				( userID 37 )
+				( stripCount 2 )
+				( stripLengths 4 4 )
+				; triangleCount: 8
+				( stripIndices
+					( stripIndex 12 17 14 16 )
+					( stripIndex 15 19 13 18 )
+				)
+			) 
+		)
+
+		; it contains 4 item(s).
+		( VertexArrays
+			( vertexArray
+				( name "Straight_Part_v01_v002_positions" )
+				( userID 7 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 3 )
+				( vertexCount 20 )
+				( components
+					( f3 -1.514982 -1.900000 -10.000015 )
+					( f3 1.515000 -1.900000 -9.999985 )
+					( f3 -1.515001 -1.900000 10.000015 )
+					( f3 1.515000 -1.900000 10.000015 )
+					( f3 -1.515001 -0.100000 10.000015 )
+					( f3 -1.514982 -0.100000 -10.000015 )
+					( f3 1.515000 -0.100000 -9.999985 )
+					( f3 1.515000 -0.100000 10.000015 )
+					( f3 -6.181201 1.900000 10.000015 )
+					( f3 -6.181124 1.900000 -10.000015 )
+					( f3 6.181201 1.900000 -9.999985 )
+					( f3 6.181201 1.900000 10.000015 )
+					( f3 -1.514982 -1.900000 -10.000015 )
+					( f3 1.515000 -1.900000 -9.999985 )
+					( f3 -1.515001 -1.900000 10.000015 )
+					( f3 1.515000 -1.900000 10.000015 )
+					( f3 -1.515001 -0.100000 10.000015 )
+					( f3 -1.514982 -0.100000 -10.000015 )
+					( f3 1.515000 -0.100000 -9.999985 )
+					( f3 1.515000 -0.100000 10.000015 )
+				)
+			) 
+			( vertexArray
+				( name "Straight_Part_v01_v002_normals" )
+				( userID 8 )
+				( scaleType 2 ) ; NORMALSCALE
+				( componentCount 3 )
+				( vertexCount 20 )
+				( components
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 0.393957 0.919129 0.000000 )
+					( f3 0.393957 0.919129 0.000000 )
+					( f3 -0.393953 0.919131 0.000000 )
+					( f3 -0.393953 0.919131 0.000000 )
+					( f3 0.393957 0.919129 0.000000 )
+					( f3 0.393957 0.919129 0.000000 )
+					( f3 -0.393953 0.919131 0.000000 )
+					( f3 -0.393953 0.919131 0.000000 )
+					( f3 1.000000 0.000000 0.000001 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 1.000000 0.000000 0.000001 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 1.000000 0.000000 0.000001 )
+					( f3 1.000000 0.000000 0.000001 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+				)
+			) 
+			( vertexArray
+				( name "Straight_Part_v01_v002_UVcoord_0" )
+				( userID 9 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 2 )
+				( vertexCount 20 )
+				( components
+					( f2 -1.014982 -8.500015 )
+					( f2 2.015000 -8.499985 )
+					( f2 -1.015001 11.500015 )
+					( f2 2.015000 11.500015 )
+					( f2 -1.015001 11.500015 )
+					( f2 -1.014982 -8.500015 )
+					( f2 2.015000 -8.499985 )
+					( f2 2.015000 11.500015 )
+					( f2 -5.681201 11.500015 )
+					( f2 -5.681124 -8.500015 )
+					( f2 6.681201 -8.499985 )
+					( f2 6.681201 11.500015 )
+					( f2 10.500015 1.973684 )
+					( f2 10.499985 1.973684 )
+					( f2 -9.500015 1.973684 )
+					( f2 -9.500015 1.973684 )
+					( f2 -9.500015 1.026316 )
+					( f2 10.500015 1.026316 )
+					( f2 10.499985 1.026316 )
+					( f2 -9.500015 1.026316 )
+				)
+			) 
+			( vertexArray
+				( name "Straight_Part_v01_v002_UVcoord_1" )
+				( userID 10 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 2 )
+				( vertexCount 20 )
+				( components
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 0.000000 0.000000 )
+					( f2 1.000000 2.000000 )
+					( f2 0.999998 2.000000 )
+					( f2 0.000000 2.000000 )
+					( f2 0.000000 2.000000 )
+					( f2 0.000000 1.000000 )
+					( f2 1.000000 1.000000 )
+					( f2 0.999998 1.000000 )
+					( f2 0.000000 1.000000 )
+				)
+			) 
+		)
+
+		; it contains 1 item(s).
+		( VertexBuffers
+			( vertexBuffer
+				( name "Straight_Part_v01_v002_VB" )
+				( userID 6 )
+				( coordinatesRef "Straight_Part_v01_v002_positions" )
+				( normalsRef "Straight_Part_v01_v002_normals" )
+				( textureCoordRefs
+					( textureCoordRef "Straight_Part_v01_v002_UVcoord_0" )
+					( textureCoordRef "Straight_Part_v01_v002_UVcoord_1" )
+				)
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Cameras
+			( camera
+				( name "Camera" )
+				( userID 3 )
+				( translation 0.000000 0.000000 33.735825 )
+				( projectionType 50 )
+				( near 0.100000 )
+				( far 500.000000 )
+				( aspectRatio 1.000000 )
+				( fovy 45.239731 )
+			) 
+		)
+
+		; it contains 2 item(s).
+		( Lights
+			( light
+				( name "theAmbient" )
+				( userID 2 )
+				( lightColor 0.400000 0.400000 0.400000 )
+				( mode 128 )
+			) 
+			( light
+				( name "Light" )
+				( userID 4 )
+				( translation -2.000000 2.000000 2.000000 )
+				( orientation 56.444580 -0.587481 -0.771784 -0.243343 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Meshes
+			( mesh
+				( name "Straight_Part_v01_v002" )
+				( userID 5 )
+				( vertexBufferRef "Straight_Part_v01_v002_VB" )
+				( submeshCount 3 )
+				( subMeshes
+				( subMesh 
+					( indexBufferRef "Straight_Part_v01_v002_Straight_Part_v01_v002_Road_TriangleStripeArray" )
+					( appearanceRef "Straight_Part_v01_v002_Road_Appearance" )
+				)
+				( subMesh 
+					( indexBufferRef "Straight_Part_v01_v002_Straight_Part_v01_v002_Bleacher_TriangleStripeArray" )
+					( appearanceRef "Straight_Part_v01_v002_Bleacher_Appearance" )
+				)
+				( subMesh 
+					( indexBufferRef "Straight_Part_v01_v002_Straight_Part_v01_v002_Sides_TriangleStripeArray" )
+					( appearanceRef "Straight_Part_v01_v002_Sides_Appearance" )
+				)
+				)
+			) 
+		)
+
+		( World
+			( name "world" )
+			( userID 1 )
+			( numChildren 4 )
+			( Children
+				( Cameras
+					( cameraName "Camera" )
+				)
+				( Lights
+					( lightName "theAmbient" )
+					( lightName "Light" )
+				)
+				( Meshes
+					( meshName "Straight_Part_v01_v002" )
+				)
+			)
+			( activeCameraRef "Camera" )
+		)
+	) ; end of the section
+
+)

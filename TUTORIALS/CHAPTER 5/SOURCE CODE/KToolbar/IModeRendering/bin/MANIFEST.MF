@@ -1,0 +1,6 @@
+MIDlet-1: IModeRendering, IModeRendering.png, IModeRenderingMidlet
+MIDlet-Name: IModeRendering
+MIDlet-Vendor: Unknown
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

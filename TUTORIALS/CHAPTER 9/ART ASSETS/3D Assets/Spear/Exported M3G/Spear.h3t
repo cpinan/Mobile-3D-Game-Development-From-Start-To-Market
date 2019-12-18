@@ -1,0 +1,274 @@
+;V4FILE
+
+( V4_FileInfo 
+	( versionNumber 1 1 )
+	( hasExternalLinks true )
+	( authoringField "Exported from Lightwave 3D" )
+)
+
+; it contains 1 item(s).
+( External_Links
+	( ExRef 
+		( name "Spear_IM2D_exImg" )
+		( URI "Spear.png" )
+	)
+)
+
+( Sections
+
+	; The section has 16 items.
+	( section
+		( needCompress true )
+		; it contains 1 item(s).
+		( Image2Ds
+			( image2d
+				( name "Spear_IM2D" )
+				( userID 15 )
+				( ExtImageRef "Spear_IM2D_exImg" )
+				( format 99 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Texture2Ds
+			( texture2d
+				( name "Spear_Default_Spear_Texture2D" )
+				( userID 14 )
+				( textureImageRef "Spear_IM2D" )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( CompositingModes
+			( compositingMode
+				( name "Spear_Default_CM" )
+				( userID 11 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( PolygonModes
+			( polygonMode
+				( name "Spear_Default_PM" )
+				( userID 12 )
+				( culling 162 )
+				( twoSidedLightingEnabled true )
+				( perspectiveCorrectionEnabled true )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Materials
+			( material
+				( name "Spear_Default_Material" )
+				( userID 13 )
+				( ambientColor 1.000000 1.000000 1.000000 )
+				( diffuseColor 1.000000 1.000000 1.000000 1.000000 )
+				( shininess 48.000000 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Appearances
+			( appearance
+				( name "Spear_Default_Appearance" )
+				( userID 10 )
+				( compositingModeRef "Spear_Default_CM" )
+				( polygonModeRef "Spear_Default_PM" )
+				( materialRef "Spear_Default_Material" )
+				( textures 
+					( textureRef "Spear_Default_Spear_Texture2D" )
+				 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( TriangleStripArrays
+			( triangleStripArray
+				( name "Spear_Spear_Default_TriangleStripeArray" )
+				( userID 17 )
+				( stripCount 6 )
+				( stripLengths 4 4 4 4 4 4 )
+				; triangleCount: 24
+				( stripIndices
+					( stripIndex 3 0 5 4 )
+					( stripIndex 4 7 5 6 )
+					( stripIndex 1 2 7 6 )
+					( stripIndex 11 8 15 13 )
+					( stripIndex 12 18 14 16 )
+					( stripIndex 9 10 19 17 )
+				)
+			) 
+		)
+
+		; it contains 3 item(s).
+		( VertexArrays
+			( vertexArray
+				( name "Spear_positions" )
+				( userID 7 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 3 )
+				( vertexCount 20 )
+				( components
+					( f3 -0.075000 0.025000 0.000000 )
+					( f3 -0.003750 3.175100 0.000000 )
+					( f3 0.003750 3.175100 0.000000 )
+					( f3 0.075000 0.025000 0.000000 )
+					( f3 -0.075000 2.950000 0.000000 )
+					( f3 0.075000 2.950000 0.000000 )
+					( f3 0.168750 2.956000 0.000000 )
+					( f3 -0.168750 2.956000 0.000000 )
+					( f3 0.000000 0.025000 0.075000 )
+					( f3 0.000000 3.175100 0.003750 )
+					( f3 -0.000000 3.175100 -0.003750 )
+					( f3 -0.000000 0.025000 -0.075000 )
+					( f3 0.000000 2.950000 0.075000 )
+					( f3 0.000000 2.950000 0.075000 )
+					( f3 -0.000000 2.950000 -0.075000 )
+					( f3 -0.000000 2.950000 -0.075000 )
+					( f3 -0.000000 2.956000 -0.168750 )
+					( f3 -0.000000 2.956000 -0.168750 )
+					( f3 0.000000 2.956000 0.168750 )
+					( f3 0.000000 2.956000 0.168750 )
+				)
+			) 
+			( vertexArray
+				( name "Spear_normals" )
+				( userID 8 )
+				( scaleType 2 ) ; NORMALSCALE
+				( componentCount 3 )
+				( vertexCount 20 )
+				( components
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 -0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 -0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 -0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 -1.000000 -0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+				)
+			) 
+			( vertexArray
+				( name "Spear_UVcoord_0" )
+				( userID 9 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 2 )
+				( vertexCount 20 )
+				( components
+					( f2 0.052469 0.983871 )
+					( f2 0.081790 0.016129 )
+					( f2 0.084877 0.016129 )
+					( f2 0.114198 0.983871 )
+					( f2 0.052469 0.085282 )
+					( f2 0.114198 0.085282 )
+					( f2 0.152778 0.083439 )
+					( f2 0.013889 0.083439 )
+					( f2 0.219136 0.983871 )
+					( f2 0.248457 0.016129 )
+					( f2 0.251543 0.016129 )
+					( f2 0.280864 0.983871 )
+					( f2 0.219136 0.085282 )
+					( f2 0.219136 0.085282 )
+					( f2 0.280864 0.085282 )
+					( f2 0.280864 0.085282 )
+					( f2 0.319444 0.083439 )
+					( f2 0.319444 0.083439 )
+					( f2 0.180556 0.083439 )
+					( f2 0.180556 0.083439 )
+				)
+			) 
+		)
+
+		; it contains 1 item(s).
+		( VertexBuffers
+			( vertexBuffer
+				( name "Spear_VB" )
+				( userID 6 )
+				( coordinatesRef "Spear_positions" )
+				( normalsRef "Spear_normals" )
+				( textureCoordRefs
+					( textureCoordRef "Spear_UVcoord_0" )
+				)
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Cameras
+			( camera
+				( name "Camera" )
+				( userID 3 )
+				( translation 0.000000 1.600050 8.233006 )
+				( projectionType 50 )
+				( near 0.100000 )
+				( far 500.000000 )
+				( aspectRatio 1.000000 )
+				( fovy 45.239731 )
+			) 
+		)
+
+		; it contains 2 item(s).
+		( Lights
+			( light
+				( name "theAmbient" )
+				( userID 2 )
+				( lightColor 0.050000 0.050000 0.050000 )
+				( mode 128 )
+			) 
+			( light
+				( name "Light" )
+				( userID 4 )
+				( translation -2.000000 2.000000 2.000000 )
+				( orientation 56.444580 -0.587481 -0.771784 -0.243343 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Meshes
+			( mesh
+				( name "Spear" )
+				( userID 5 )
+				( vertexBufferRef "Spear_VB" )
+				( submeshCount 1 )
+				( subMeshes
+				( subMesh 
+					( indexBufferRef "Spear_Spear_Default_TriangleStripeArray" )
+					( appearanceRef "Spear_Default_Appearance" )
+				)
+				)
+			) 
+		)
+
+		( World
+			( name "world" )
+			( userID 1 )
+			( numChildren 4 )
+			( Children
+				( Cameras
+					( cameraName "Camera" )
+				)
+				( Lights
+					( lightName "theAmbient" )
+					( lightName "Light" )
+				)
+				( Meshes
+					( meshName "Spear" )
+				)
+			)
+			( activeCameraRef "Camera" )
+		)
+	) ; end of the section
+
+)

@@ -1,0 +1,271 @@
+;V4FILE
+
+( V4_FileInfo 
+	( versionNumber 1 1 )
+	( hasExternalLinks true )
+	( authoringField "Exported from Lightwave 3D" )
+)
+
+; it contains 1 item(s).
+( External_Links
+	( ExRef 
+		( name "HealthMap_IM2D_exImg" )
+		( URI "HealthMap.png" )
+	)
+)
+
+( Sections
+
+	; The section has 16 items.
+	( section
+		( needCompress true )
+		; it contains 1 item(s).
+		( Image2Ds
+			( image2d
+				( name "HealthMap_IM2D" )
+				( userID 15 )
+				( ExtImageRef "HealthMap_IM2D_exImg" )
+				( format 99 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Texture2Ds
+			( texture2d
+				( name "HealthBox_Default_HealthMap_Texture2D" )
+				( userID 14 )
+				( textureImageRef "HealthMap_IM2D" )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( CompositingModes
+			( compositingMode
+				( name "HealthBox_Default_CM" )
+				( userID 11 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( PolygonModes
+			( polygonMode
+				( name "HealthBox_Default_PM" )
+				( userID 12 )
+				( perspectiveCorrectionEnabled true )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Materials
+			( material
+				( name "HealthBox_Default_Material" )
+				( userID 13 )
+				( ambientColor 1.000000 1.000000 1.000000 )
+				( diffuseColor 1.000000 1.000000 1.000000 1.000000 )
+				( shininess 48.000000 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Appearances
+			( appearance
+				( name "HealthBox_Default_Appearance" )
+				( userID 10 )
+				( compositingModeRef "HealthBox_Default_CM" )
+				( polygonModeRef "HealthBox_Default_PM" )
+				( materialRef "HealthBox_Default_Material" )
+				( textures 
+					( textureRef "HealthBox_Default_HealthMap_Texture2D" )
+				 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( TriangleStripArrays
+			( triangleStripArray
+				( name "HealthBox_HealthBox_Default_TriangleStripeArray" )
+				( userID 17 )
+				( stripCount 5 )
+				( stripLengths 4 4 4 4 4 )
+				; triangleCount: 20
+				( stripIndices
+					( stripIndex 1 2 9 11 )
+					( stripIndex 3 5 13 16 )
+					( stripIndex 7 18 4 14 )
+					( stripIndex 0 8 6 17 )
+					( stripIndex 10 12 19 15 )
+				)
+			) 
+		)
+
+		; it contains 3 item(s).
+		( VertexArrays
+			( vertexArray
+				( name "HealthBox_positions" )
+				( userID 7 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 3 )
+				( vertexCount 20 )
+				( components
+					( f3 -0.300000 0.000000 0.200000 )
+					( f3 -0.300000 0.000000 0.200000 )
+					( f3 0.200000 0.000000 0.200000 )
+					( f3 0.200000 0.000000 0.200000 )
+					( f3 0.200000 0.000000 -0.200000 )
+					( f3 0.200000 0.000000 -0.200000 )
+					( f3 -0.300000 0.000000 -0.200000 )
+					( f3 -0.300000 0.000000 -0.200000 )
+					( f3 -0.300000 0.450000 0.200000 )
+					( f3 -0.300000 0.450000 0.200000 )
+					( f3 -0.300000 0.450000 0.200000 )
+					( f3 0.200000 0.450000 0.200000 )
+					( f3 0.200000 0.450000 0.200000 )
+					( f3 0.200000 0.450000 0.200000 )
+					( f3 0.200000 0.450000 -0.200000 )
+					( f3 0.200000 0.450000 -0.200000 )
+					( f3 0.200000 0.450000 -0.200000 )
+					( f3 -0.300000 0.450000 -0.200000 )
+					( f3 -0.300000 0.450000 -0.200000 )
+					( f3 -0.300000 0.450000 -0.200000 )
+				)
+			) 
+			( vertexArray
+				( name "HealthBox_normals" )
+				( userID 8 )
+				( scaleType 2 ) ; NORMALSCALE
+				( componentCount 3 )
+				( vertexCount 20 )
+				( components
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 0.000000 0.000000 1.000000 )
+					( f3 0.000000 0.000000 1.000000 )
+					( f3 1.000000 0.000000 0.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 1.000000 0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 0.000000 0.000000 1.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 0.000000 0.000000 1.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 1.000000 0.000000 0.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+					( f3 1.000000 0.000000 0.000000 )
+					( f3 -1.000000 0.000000 0.000000 )
+					( f3 0.000000 0.000000 -1.000000 )
+					( f3 0.000000 1.000000 0.000000 )
+				)
+			) 
+			( vertexArray
+				( name "HealthBox_UVcoord_0" )
+				( userID 9 )
+				( scaleType 1 ) ; FREESCALE
+				( componentCount 2 )
+				( vertexCount 20 )
+				( components
+					( f2 0.006410 0.940256 )
+					( f2 0.006452 0.933590 )
+					( f2 0.983548 0.933590 )
+					( f2 0.006410 0.936923 )
+					( f2 0.983548 0.933590 )
+					( f2 0.981923 0.936923 )
+					( f2 0.981923 0.940256 )
+					( f2 0.006452 0.933590 )
+					( f2 0.006410 0.009744 )
+					( f2 0.006452 0.003077 )
+					( f2 0.006452 0.940256 )
+					( f2 0.983548 0.003077 )
+					( f2 0.983548 0.940256 )
+					( f2 0.006410 0.006410 )
+					( f2 0.983548 0.003077 )
+					( f2 0.983548 0.009744 )
+					( f2 0.981923 0.006410 )
+					( f2 0.981923 0.009744 )
+					( f2 0.006452 0.003077 )
+					( f2 0.006452 0.009744 )
+				)
+			) 
+		)
+
+		; it contains 1 item(s).
+		( VertexBuffers
+			( vertexBuffer
+				( name "HealthBox_VB" )
+				( userID 6 )
+				( coordinatesRef "HealthBox_positions" )
+				( normalsRef "HealthBox_normals" )
+				( textureCoordRefs
+					( textureCoordRef "HealthBox_UVcoord_0" )
+				)
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Cameras
+			( camera
+				( name "Camera" )
+				( userID 3 )
+				( translation -0.050000 0.225000 1.352000 )
+				( projectionType 50 )
+				( near 0.100000 )
+				( far 500.000000 )
+				( aspectRatio 1.000000 )
+				( fovy 45.239731 )
+			) 
+		)
+
+		; it contains 2 item(s).
+		( Lights
+			( light
+				( name "theAmbient" )
+				( userID 2 )
+				( lightColor 0.050000 0.050000 0.050000 )
+				( mode 128 )
+			) 
+			( light
+				( name "Light" )
+				( userID 4 )
+				( translation -2.000000 2.000000 2.000000 )
+				( orientation 56.444580 -0.587481 -0.771784 -0.243343 )
+			) 
+		)
+
+		; it contains 1 item(s).
+		( Meshes
+			( mesh
+				( name "HealthBox" )
+				( userID 5 )
+				( vertexBufferRef "HealthBox_VB" )
+				( submeshCount 1 )
+				( subMeshes
+				( subMesh 
+					( indexBufferRef "HealthBox_HealthBox_Default_TriangleStripeArray" )
+					( appearanceRef "HealthBox_Default_Appearance" )
+				)
+				)
+			) 
+		)
+
+		( World
+			( name "world" )
+			( userID 1 )
+			( numChildren 4 )
+			( Children
+				( Cameras
+					( cameraName "Camera" )
+				)
+				( Lights
+					( lightName "theAmbient" )
+					( lightName "Light" )
+				)
+				( Meshes
+					( meshName "HealthBox" )
+				)
+			)
+			( activeCameraRef "Camera" )
+		)
+	) ; end of the section
+
+)
